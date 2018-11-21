@@ -1,0 +1,10 @@
+﻿{
+  "settings": {
+    "documentationRules": {
+      "companyName": "HundredProof",
+      "copyrightText": "   Copyright (c) {companyName} 2018. All rights reserved.",
+      "variables": {
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundredProof.Identity.Server.Owin.Console", "HundredProof.Identity.Server.Owin.Console\HundredProof.Identity.Server.Owin.Console.csproj", "{90220564-093F-41A2-AB77-0EF8856EE193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90220564-093F-41A2-AB77-0EF8856EE193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90220564-093F-41A2-AB77-0EF8856EE193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90220564-093F-41A2-AB77-0EF8856EE193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90220564-093F-41A2-AB77-0EF8856EE193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B48F56A-AD21-4CD1-9573-98B58D2817C8}
+	EndGlobalSection
+EndGlobal
