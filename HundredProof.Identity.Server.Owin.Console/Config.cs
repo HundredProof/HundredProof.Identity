@@ -83,6 +83,29 @@ namespace HundredProof.Identity.Server.Owin.Console
                     AllowedCorsOrigins = { "http://localhost:5002" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
+                },
+                new Client
+                {
+                    ClientId = "react_spa",
+                    ClientName = "React Client",
+                    ClientUri = "https://localhost:5201/",
+
+                    AllowedGrantTypes = GrantTypes.Code,
+                    RequirePkce = true,
+                    RequireClientSecret = false,
+
+                    RedirectUris =
+                    {
+                        "http://localhost:5002/index.html",
+                        "http://localhost:5002/callback.html",
+                        "http://localhost:5002/silent.html",
+                        "http://localhost:5002/popup.html",
+                    },
+
+                    PostLogoutRedirectUris = { "http://localhost:5002/index.html" },
+                    AllowedCorsOrigins = { "http://localhost:5002" },
+
+                    AllowedScopes = { "openid", "profile", "api1" }
                 }
             };
         }
