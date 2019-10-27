@@ -22,7 +22,10 @@ namespace HundredProof.Identity.Server.Owin.Console
         {
             return new ApiResource[]
             {
-                new ApiResource("api1", "My API #1")
+                new ApiResource("api1", "My API #1"),
+                new ApiResource("ReactProject", "ReactProject1"), 
+                new ApiResource("ProtectedAPI", "ProtectedAPI"), 
+
             };
         }
 
@@ -35,7 +38,6 @@ namespace HundredProof.Identity.Server.Owin.Console
                 {
                     ClientId = "client",
                     ClientName = "Client Credentials Client",
-
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
 

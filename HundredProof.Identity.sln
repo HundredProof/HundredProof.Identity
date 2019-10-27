@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundredProof.Identity.Featu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundredProof.Identity.Domain", "HundredProof.Identity.Domain\HundredProof.Identity.Domain.csproj", "{85B6B2FA-5A75-43B9-AC5F-2F75F71A6717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundredProof.Identity.Examples.ProtectedAPI", "HundredProof.Identity.Examples.ProtectedAPI\HundredProof.Identity.Examples.ProtectedAPI\HundredProof.Identity.Examples.ProtectedAPI.csproj", "{0EF296FB-252B-4221-AE23-EF847B704CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HundredProof.Identity.Examples.ProtectedAPI", "HundredProof.Identity.Examples.ProtectedAPI\HundredProof.Identity.Examples.ProtectedAPI\HundredProof.Identity.Examples.ProtectedAPI.csproj", "{0EF296FB-252B-4221-AE23-EF847B704CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HundredProof.Identity.Examples.ProtectedUI.React", "HundredProof.Identity.Examples.ProtectedUI.React\HundredProof.Identity.Examples.ProtectedUI.React\HundredProof.Identity.Examples.ProtectedUI.React.csproj", "{CBEC49C1-739F-4831-A379-3E1ACBC33CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HundredProof.Identity.Examples.ConsoleApp", "HundredProof.Identity.Examples.ConsoleApp\HundredProof.Identity.Examples.ConsoleApp.csproj", "{11478648-D04B-4C04-AFDD-03A689EF95FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{0EF296FB-252B-4221-AE23-EF847B704CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF296FB-252B-4221-AE23-EF847B704CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF296FB-252B-4221-AE23-EF847B704CDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBEC49C1-739F-4831-A379-3E1ACBC33CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBEC49C1-739F-4831-A379-3E1ACBC33CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBEC49C1-739F-4831-A379-3E1ACBC33CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBEC49C1-739F-4831-A379-3E1ACBC33CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11478648-D04B-4C04-AFDD-03A689EF95FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11478648-D04B-4C04-AFDD-03A689EF95FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11478648-D04B-4C04-AFDD-03A689EF95FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11478648-D04B-4C04-AFDD-03A689EF95FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
